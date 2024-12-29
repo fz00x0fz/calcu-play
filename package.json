@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "gh-pages -d dist -b gh-pages --repo git@github_my_fz00x0fz:fz00x0fz/calcu-play",
     "lint": "eslint .",
     "preview": "vite preview"
   },
